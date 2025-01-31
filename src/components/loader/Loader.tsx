@@ -9,7 +9,13 @@ interface LoaderProps extends ActivityIndicatorProps { }
  * @returns {JSX.Element} El componente renderizado
  */
 const Loader: React.FC<LoaderProps> = ({ color = 'white', size = 'large', style, ...rest }) => (
-  <ActivityIndicator color={color} size={size} style={[styles.loader, style]} {...rest} testID="loader" />
+  <ActivityIndicator
+    color={color}
+    size={size}
+    style={[styles.loader, style]} {...rest}
+    testID="loader"
+    accessibilityLabel={rest.accessibilityLabel || 'Loading...'}
+  />
 );
 
 const styles = StyleSheet.create({

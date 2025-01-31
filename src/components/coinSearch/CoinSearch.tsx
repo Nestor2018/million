@@ -37,6 +37,8 @@ const CoinSearch: React.FC<CoinSearchProps> = memo(({ onChange }) => {
         value={query}
         placeholder="Search coin"
         placeholderTextColor="white"
+        accessible={true}
+        accessibilityLabel="Search coin"
       />
     </View>
   );

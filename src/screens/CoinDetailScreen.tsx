@@ -204,4 +204,5 @@ const styles = StyleSheet.create({
     backgroundColor: colors.carmine,
   },
 });
+
 export default memo(CoinDetailScreen);

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoinMarketItem component matches snapshot 1`] = `
+<View>
+  <Text
+    accessibilityLabel="Market Name"
+    accessible={true}
+    testID="marketName"
+  >
+    Market Name
+  </Text>
+  <Text
+    accessibilityLabel="100"
+    accessible={true}
+    testID="marketPrice"
+  >
+    100
+  </Text>
+</View>
+`;

@@ -18,10 +18,20 @@ interface CoinMarketItemProps {
 const CoinMarketItem: React.FC<CoinMarketItemProps> = memo(({ market }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.nameText} testID="marketName">
+      <Text
+        style={styles.nameText}
+        testID="marketName"
+        accessible={true}
+        accessibilityLabel={`${market.name}`}
+      >
         {market.name}
       </Text>
-      <Text style={styles.priceText} testID="marketPrice">
+      <Text
+        style={styles.priceText}
+        testID="marketPrice"
+        accessible={true}
+        accessibilityLabel={`${market.price_usd}`}
+      >
         {market.price_usd}
       </Text>
     </View>

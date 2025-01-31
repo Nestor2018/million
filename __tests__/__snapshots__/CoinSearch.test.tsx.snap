@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoinSearch Component matches snapshot 1`] = `
+<View
+  testID="coinSearch"
+>
+  <TextInput
+    accessibilityLabel="Search coin"
+    accessible={true}
+    onChangeText={[Function]}
+    placeholder="Search coin"
+    placeholderTextColor="white"
+    style={
+      [
+        undefined,
+        undefined,
+      ]
+    }
+    testID="input"
+    value=""
+  />
+</View>
+`;

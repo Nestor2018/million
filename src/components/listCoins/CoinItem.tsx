@@ -30,7 +30,8 @@ const CoinItem: React.FC<CoinItemProps> = memo(({ coin, onPress }) => {
   }, []);
 
   return (
-    <Pressable onPress={onPress} style={styles.container} testID="coinItem">
+    <Pressable onPress={onPress} style={styles.container} testID="coinItem"
+    >
       <View style={styles.row}>
         <Text style={styles.symbolText}>{symbol}</Text>
         <Text style={styles.nameText}>{name}</Text>

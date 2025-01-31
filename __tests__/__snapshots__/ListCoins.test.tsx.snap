@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListCoins Component matches snapshot 1`] = `
+<RCTSafeAreaView
+  testID="listCoins"
+>
+  <View
+    testID="coinSearch"
+  >
+    <TextInput
+      accessibilityLabel="Search coin"
+      accessible={true}
+      onChangeText={[Function]}
+      placeholder="Search coin"
+      placeholderTextColor="white"
+      style={
+        [
+          undefined,
+          undefined,
+        ]
+      }
+      testID="input"
+      value=""
+    />
+  </View>
+  <View
+    testID="flat-list"
+  >
+    <View
+      testID="flat-list-item-0"
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="coinItem"
+      >
+        <View>
+          <Text>
+            BTC
+          </Text>
+          <Text>
+            Bitcoin
+          </Text>
+          <Text>
+             
+            $50000
+          </Text>
+        </View>
+        <View>
+          <Text>
+            5
+          </Text>
+          <Image
+            source={
+              {
+                "testUri": "../../../assets/arrow_up.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      testID="flat-list-item-1"
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="coinItem"
+      >
+        <View>
+          <Text>
+            ETH
+          </Text>
+          <Text>
+            Ethereum
+          </Text>
+          <Text>
+             
+            $3000
+          </Text>
+        </View>
+        <View>
+          <Text>
+            -2
+          </Text>
+          <Image
+            source={
+              {
+                "testUri": "../../../assets/arrow_down.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
