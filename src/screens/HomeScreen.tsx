@@ -1,13 +1,26 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import { NavigationProp } from '@react-navigation/native';
 
-const HomeScreen = () => {
-  return (
-    <View>
-      <Text>home</Text>
-    </View>
-  )
+import ListCoins from '../components/listCoins/ListCoins';
 
+
+interface HomeScreenProps {
+  navigation: NavigationProp<any>;
 }
 
-export default HomeScreen
+const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <ListCoins navigation={navigation} />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
+
+export default React.memo(HomeScreen);
